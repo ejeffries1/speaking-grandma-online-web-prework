@@ -4,7 +4,7 @@ if "#{phrase}" == "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
   elsif "#{phrase}" == phrase.upcase
   return "NO, NOT SINCE 1938!"
-  elsif "Hi, Nana, how are you?"
+  elsif "#{phrase}"=="Hi, Nana, how are you?"
   return "HUH?!, SPEAK UP, SONNY!"
 else
   puts "HUH?!, SPEAK UP, SONNY!"
