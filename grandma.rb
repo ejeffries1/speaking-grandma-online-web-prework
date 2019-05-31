@@ -1,7 +1,13 @@
 # Write a speak_to_grandma method.
 speak_to_grandma = gets.chomp
 
-if speak_to_grandma ==
+if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
+  puts "I LOVE YOU TOO PUMPKIN!"
+  
+  elsif speak_to_grandma == gets.chomp.upcase
+  puts "NO, NOT SINCE 1938!"
+  
+else 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
