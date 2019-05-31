@@ -1,4 +1,5 @@
 # Write a speak_to_grandma method.
+speak_to_grandma = gets.chomp
 
 if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
