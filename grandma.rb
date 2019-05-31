@@ -7,7 +7,9 @@ if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
   elsif speak_to_grandma == gets.chomp.upcase
   puts "NO, NOT SINCE 1938!"
   
-else 
+else
+  puts "HUH?!, SPEAK UP, SONNY!"
+end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
