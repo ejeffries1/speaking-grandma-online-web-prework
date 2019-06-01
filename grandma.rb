@@ -5,7 +5,7 @@ if "#{phrase}" == "I LOVE YOU GRANDMA!"
   elsif "#{phrase}" == phrase.upcase
   return "NO, NOT SINCE 1938!"
   else "#{phrase}"== "Hi Nana, how are you?"|| "Hi"
-  return "HUH?!, SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 #else 
   #puts "HUH?!, SPEAK UP, SONNY!"
 end
